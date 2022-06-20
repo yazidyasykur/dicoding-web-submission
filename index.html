@@ -1,54 +1,88 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
-    </head>
 
-    <body>
-        <header>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <script src="assets/script.js"></script>
+        <div class="welcome">
             <h1>Lorem Ipsum</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Content &#9660</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div>
+                </li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Project</a></li>
+            </ul>
+        </nav>
 
-            <nav>
-                <ul>
-                    <li>Item1</li>
-                    <li>Item1</li>
-                    <li>Item1</li>
-                    <li>Item1</li>
-                </ul>
-            </nav>
+    </header>
 
-        </header>
+    <main>
+        <div id="content" class="card">
+            <article>
+                <h2>Lorem Ipsum</h2>
+                <img src="https://picsum.photos/id/1000/1080/1920?grayscale" alt="random photo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ullamcorper sit amet risus nullam eget felis eget. Potenti nullam ac tortor
+                    vitae purus. Purus sit amet volutpat consequat mauris nunc. Morbi tristique senectus et netus et
+                    malesuada fames. Fermentum leo vel orci porta. Convallis aenean et tortor at risus viverra
+                    adipiscing at. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
+            </article>
 
-        <main>
-            <div id="content" class="card">
-                <article>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper sit amet risus nullam eget felis eget. Potenti nullam ac tortor vitae purus. Purus sit amet volutpat consequat mauris nunc. Morbi tristique senectus et netus et malesuada fames. Fermentum leo vel orci porta. Convallis aenean et tortor at risus viverra adipiscing at. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
-                </article>
-                    
-                <article>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper sit amet risus nullam eget felis eget. Potenti nullam ac tortor vitae purus. Purus sit amet volutpat consequat mauris nunc. Morbi tristique senectus et netus et malesuada fames. Fermentum leo vel orci porta. Convallis aenean et tortor at risus viverra adipiscing at. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
-                </article>
+            <article>
+                <h2>Lorem Ipsum</h2>
+                <img src="https://picsum.photos/id/1036/1080/1920?grayscale" alt="random photo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ullamcorper sit amet risus nullam eget felis eget. Potenti nullam ac tortor
+                    vitae purus. Purus sit amet volutpat consequat mauris nunc. Morbi tristique senectus et netus et
+                    malesuada fames. Fermentum leo vel orci porta. Convallis aenean et tortor at risus viverra
+                    adipiscing at. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
+            </article>
 
-                <article>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper sit amet risus nullam eget felis eget. Potenti nullam ac tortor vitae purus. Purus sit amet volutpat consequat mauris nunc. Morbi tristique senectus et netus et malesuada fames. Fermentum leo vel orci porta. Convallis aenean et tortor at risus viverra adipiscing at. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
-                </article>
+            <article>
+                <h2>Lorem Ipsum</h2>
+                <img src="https://picsum.photos/1080/1920?grayscale" alt="random photo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ullamcorper sit amet risus nullam eget felis eget. Potenti nullam ac tortor
+                    vitae purus. Purus sit amet volutpat consequat mauris nunc. Morbi tristique senectus et netus et
+                    malesuada fames. Fermentum leo vel orci porta. Convallis aenean et tortor at risus viverra
+                    adipiscing at. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
+            </article>
 
-                <article>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper sit amet risus nullam eget felis eget. Potenti nullam ac tortor vitae purus. Purus sit amet volutpat consequat mauris nunc. Morbi tristique senectus et netus et malesuada fames. Fermentum leo vel orci porta. Convallis aenean et tortor at risus viverra adipiscing at. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
-                </article>
-            </div>
+            <article>
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ullamcorper sit amet risus nullam eget felis eget. Potenti nullam ac tortor
+                    vitae purus. Purus sit amet volutpat consequat mauris nunc. Morbi tristique senectus et netus et
+                    malesuada fames. Fermentum leo vel orci porta. Convallis aenean et tortor at risus viverra
+                    adipiscing at. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
+            </article>
+        </div>
 
-            <aside class="card">
+        <aside>
+            <article class="profil card">
                 <h3>Profil Penulis</h3>
-                <img src="assets\image\profil.png" alt="profile" class="profil"></img>
+                <img src="assets\image\profil.png" alt="profile" class="profil-foto"></img>
 
-                <table>
+                <table class="profile-table">
                     <tr>
                         <td>Nama</td>
                         <td>Yazid Yasykur</td>
@@ -78,12 +112,13 @@
                         <td>@yazidyasykur</td>
                     </tr>
                 </table>
-            </aside>
-        </main>
+                </artice>
+        </aside>
+    </main>
 
-        <footer>
-            <p>Copyright &copy; 2022 Yazid Yasykur</p>
-        </footer>
-    </body>
+    <footer>
+        <p>Copyright &copy; 2022 Yazid Yasykur</p>
+    </footer>
+</body>
 
 </html>
